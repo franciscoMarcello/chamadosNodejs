@@ -1,0 +1,13 @@
+<h1>chamados disponiveis:</h1>
+<div class="chamados-container">
+  {{#each chamados}}
+    <div>#{{this.id}}
+      -
+      <span class="bold"><a
+          href="/chamado/{{this.id}}"
+        >{{this.title}}</a></span>
+      -
+      {{this.descricao}}
+    </div>
+  {{/each}}
+</div>

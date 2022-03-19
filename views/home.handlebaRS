@@ -1,0 +1,16 @@
+<h1>Cadastre seu chamado:</h1>
+<form action="/chamados/insert" method="post" class="form">
+  <div class="form-control">
+    <label for="title">Título</label>
+    <input type="text" name="title" placeholder="Digite o titulo do chamado" />
+  </div>
+  <div class="form-control">
+    <label for="descricao">Descrição</label>
+    <textarea
+      type="text"
+      name="descricao"
+      placeholder="Digite o que esta ocorrendo "
+    ></textarea>
+  </div>
+  <input type="submit" value="Cadastrar" />
+</form>
